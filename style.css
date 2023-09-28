@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Koulen&family=Pacifico&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Koulen', cursive;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #717171;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.baner {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.news1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #717171;
+    padding: 20px;
+    color: white;
+}
